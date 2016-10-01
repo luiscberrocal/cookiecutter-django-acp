@@ -8,9 +8,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-# Our version ALWAYS matches the version of Django we support
-# If Django has a new release, we branch, tag, then update this setting after the tag.
-version = '1.9.6b'
+version = '0.1.0'
 
 if sys.argv[-1] == 'tag':
     os.system('git tag -a %s -m "version %s"' % (version, version))
@@ -25,9 +23,9 @@ setup(
     version=version,
     description='A Cookiecutter template for creating production-ready Django projects quickly.',
     long_description=long_description,
-    author='Daniel Roy Greenfeld',
-    author_email='pydanny@gmail.com',
-    url='https://github.com/pydanny/cookiecutter-django',
+    author='Luis C. Berrocal',
+    author_email='luis.berrocal.1942@gmail.com',
+    url='https://github.com/luiscberrocal/cookiecutter-django-acp',
     packages=[],
     license='BSD',
     zip_safe=False,

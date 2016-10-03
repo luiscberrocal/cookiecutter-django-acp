@@ -1,4 +1,4 @@
-Cookiecutter Django
+Cookiecutter Django ACP
 =======================
 
 .. image:: https://pyup.io/repos/github/pydanny/cookiecutter-django/shield.svg
@@ -22,6 +22,9 @@ Powered by Cookiecutter_, Cookiecutter Django is a framework for jumpstarting pr
 .. _Troubleshooting: https://cookiecutter-django.readthedocs.io/en/latest/troubleshooting.html
 
 .. _528: https://github.com/pydanny/cookiecutter-django/issues/528#issuecomment-212650373
+
+
+Cookie cutter for ACP's corporate projects.
 
 Features
 ---------
